@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container cover">
+            <div class="row">
+                <div class="col-12 col-t-12">
+                    <h1>Currency Converter</h1>
+                    <form>
+                        <label class="amount-box">
+                            Enter Amount
+                            <input type="number" required class="enter-amount">
+                        </label>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row second-row-input">
+                <div class="col-5 col-t-12 first_side">
+                    <h3>Form</h3>
+                    <select class="first_select">
+                    </select>
+                </div>
+                <div class="col-2 col-t-12 arrow center">
+                    <button type="button"><img src="./img/arrow.svg" alt="Exchange" width="30" height="30" class="img"></button>
+                </div>
+                <div class="col-5 col-t-12 second_side">
+                    <h3>To</h3>
+                    <select class="second_select">
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-t-12">
+                    <p class="write-content"></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-t-12 submit_button">
+                    <button type="submit" class="submit">Get Exchange Rates</button>
+                </div>
+            </div>
+
+        </div>
+   </main>
+
+   <script src="./js/script.js"></script>
+</body>
+</html>
